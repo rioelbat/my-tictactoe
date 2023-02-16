@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    background: #FDFAF6;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    padding: 0;
+    margin: 0.1rem;
+    width: 4rem;
+    height: 4rem;
+    background: inherit;
+    font-size: 2rem;
+    border: 0.2rem solid #E4EFE7;
+}
+
+.square:hover {
+    background: #FAF1E6;
+    cursor: pointer;
+}
