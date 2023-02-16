@@ -1,23 +1,44 @@
+/* #####
+Pallete
+
+#FAF1E6
+#FDFAF6
+#E4EFE7
+#064420
+
+#####*/
+
 body {
-    height: 100vh;
-    background: #FDFAF6;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  background: #faf1e6;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+    font-size: 1em;  
 }
 
 .square {
-    padding: 0;
-    margin: 0.1rem;
-    width: 4rem;
-    height: 4rem;
-    background: inherit;
-    font-size: 2rem;
-    border: 0.2rem solid #E4EFE7;
+  padding: 0;
+  margin: 0.1rem;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: 800;
+  border: 0.2rem solid #064420;
+  color: #064420;
+  background: inherit;
 }
 
 .square:hover {
-    background: #FAF1E6;
-    cursor: pointer;
+  background: #fdfaf6;
+  cursor: pointer;
 }
