@@ -8,7 +8,7 @@
 
 This is a simple TicTacToe react based application. I built this while i was learning React library from [beta.reactjs.org](https://beta.reactjs.org/learn/tutorial-tic-tac-toe#adding-time-travel).
 
-- Live demo: [https://github.com/rioelbat/my-tictactoe](https://my-tictactoe-rioelbat.netlify.app/)
+- Live demo: [https://my-tictactoe-rioelbat.netlify.app/](https://my-tictactoe-rioelbat.netlify.app/)
 - Github repo: [https://github.com/rioelbat/my-tictactoe](https://github.com/rioelbat/my-tictactoe)
 
 ## Features
