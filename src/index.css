@@ -9,36 +9,81 @@ Pallete
 #####*/
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #064420;
   height: 100vh;
-  background: #faf1e6;
+  background: linear-gradient(#E4EFE7, #FDFAF6);
   margin: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.container {
+  background: #FDFAF6;
+  padding: 1em;
+  border-radius: 1.5em;
+  box-shadow: 0 0 1em black;
+  margin-bottom: 2em;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
 }
 
 .board-row {
   display: flex;
 }
 
+.game-info {
+  height: 15em;
+  margin: 0 1em;
+}
+
+.game-board {
+  height: 15em;
+  margin: 0 1em;
+}
+
 .status {
-    font-size: 1em;  
+  font-size: 1rem;
+  line-height: 1em;
 }
 
 .square {
   padding: 0;
-  margin: 0.1rem;
-  width: 4rem;
-  height: 4rem;
+  margin: 0.1em;
+  width: 2em;
+  height: 2em;
   font-size: 2rem;
   font-weight: 800;
-  border: 0.2rem solid #064420;
+  border: 0.1em solid #064420;
   color: #064420;
-  background: inherit;
+  background: none;
 }
 
 .square:hover {
-  background: #fdfaf6;
+  background: #faf1e6;
   cursor: pointer;
+}
+
+.btn {
+  padding: 0.125em;
+  border: 0.1em solid #064420;
+  color: #064420;
+  background: #faf1e6;
+  border-radius: 0.4em;
+}
+
+.btn:hover,.btn:active {
+  filter: brightness(0.85);
 }
