@@ -1,7 +1,7 @@
 # TicTacToe
 
 <p align="center">
-  <img src="public/preview.PNG" alt="My Tictactoe Preview">
+  <img src="preview.PNG" alt="My Tictactoe Preview">
 </p>
 
 ## Description
